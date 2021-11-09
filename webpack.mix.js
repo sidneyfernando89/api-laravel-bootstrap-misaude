@@ -184,8 +184,10 @@ mix.webpackConfig({
 
 // Webpack.mix does not copy fonts, manually copy
 (glob.sync("resources/src/plugins/**/*.+(woff|woff2|eot|ttf)") || []).forEach(
-    (file) => {
-        var folder = file.match(/resources\/plugins\/(.*?)\//)[1];
+    (file) => {        
+        var folder = file.match(/resources\/plugins\/(.*?)\//);
+        if(folder === null) return;
+        folder = folder[1];
         mix.copy(
             file,
             `public/assets/plugins/global/fonts/${folder}/${path.basename(
@@ -210,9 +212,9 @@ mix.webpackConfig({
 mix.scripts(
     [
         "node_modules/datatables.net/js/jquery.dataTables.js",
-        "node_modules/datatables.net-bs4/js/dataTables.bootstrap4.js",
+        "node_modules/datatables.net-bs5/js/dataTables.bootstrap5.js",
         "node_modules/datatables.net-responsive/js/dataTables.responsive.min.js",
-        "node_modules/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js",
+        "node_modules/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js",
         "node_modules/datatables.net-scroller/js/dataTables.scroller.min.js",
         "resources/src/js/vendors/plugins/datatables.init.js",
     ],
@@ -220,9 +222,9 @@ mix.scripts(
 );
 mix.styles(
     [
-        "node_modules/datatables.net-bs4/css/dataTables.bootstrap4.css",
-        "node_modules/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css",
-        "node_modules/datatables.net-scroller-bs4/css/scroller.bootstrap4.min.css",
+        "node_modules/datatables.net-bs5/css/dataTables.bootstrap5.css",
+        "node_modules/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css",
+        "node_modules/datatables.net-scroller-bs5/css/scroller.bootstrap5.min.css",
     ],
     "public/assets/plugins/custom/datatables/datatables.bundle.css"
 );
