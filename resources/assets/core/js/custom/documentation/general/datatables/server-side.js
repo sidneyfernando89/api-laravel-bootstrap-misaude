@@ -185,7 +185,7 @@ var KTDatatablesServerSide = function () {
                                 text: "You have deleted " + customerName + "!.",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn fw-bold btn-primary",
                                 }
@@ -199,7 +199,7 @@ var KTDatatablesServerSide = function () {
                             text: customerName + " was not deleted.",
                             icon: "error",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: "OK!",
                             customClass: {
                                 confirmButton: "btn fw-bold btn-primary",
                             }
@@ -274,7 +274,7 @@ var KTDatatablesServerSide = function () {
                             text: "You have deleted all selected customers!.",
                             icon: "success",
                             buttonsStyling: false,
-                            confirmButtonText: "Ok, got it!",
+                            confirmButtonText: "OK!",
                             customClass: {
                                 confirmButton: "btn fw-bold btn-primary",
                             }
@@ -292,7 +292,7 @@ var KTDatatablesServerSide = function () {
                         text: "Selected customers was not deleted.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: "OK!",
                         customClass: {
                             confirmButton: "btn fw-bold btn-primary",
                         }

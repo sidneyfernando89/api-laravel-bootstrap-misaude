@@ -106,7 +106,7 @@ var KTAccountSettingsProfileDetails = function () {
                                 text: "Thank you! You've updated your basic info",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }
@@ -129,7 +129,7 @@ var KTAccountSettingsProfileDetails = function () {
                                     text: dataMessage,
                                     icon: "error",
                                     buttonsStyling: false,
-                                    confirmButtonText: "Ok, got it!",
+                                    confirmButtonText: "OK!",
                                     customClass: {
                                         confirmButton: "btn btn-primary"
                                     }
@@ -150,7 +150,7 @@ var KTAccountSettingsProfileDetails = function () {
                         text: "Sorry, looks like there are some errors detected, please try again.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: "OK!",
                         customClass: {
                             confirmButton: "btn btn-primary"
                         }

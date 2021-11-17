@@ -10668,7 +10668,7 @@ textarea.form-control-lg {
 
 .bg-white {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) ;
 }
 
 .bg-light {
@@ -30823,7 +30823,7 @@ textarea.form-control-lg {
 }
 
 .bg-white {
-  --bg-color: 255, 255, 255;
+  --bg-color: 24, 28, 50;
 }
 .bg-white.hoverable:hover {
   background-color: #F5F8FA !important;

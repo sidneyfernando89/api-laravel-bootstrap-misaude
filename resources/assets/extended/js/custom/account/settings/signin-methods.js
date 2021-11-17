@@ -107,7 +107,7 @@ var KTAccountSettingsSigninMethods = function () {
                                 text: "Your email has been successfully changed.",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn font-weight-bold btn-light-primary"
                                 }
@@ -127,7 +127,7 @@ var KTAccountSettingsSigninMethods = function () {
                                     text: dataMessage,
                                     icon: "error",
                                     buttonsStyling: false,
-                                    confirmButtonText: "Ok, got it!",
+                                    confirmButtonText: "OK!",
                                     customClass: {
                                         confirmButton: "btn btn-primary"
                                     }
@@ -148,7 +148,7 @@ var KTAccountSettingsSigninMethods = function () {
                         text: "Sorry, looks like there are some errors detected, please try again.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: "OK!",
                         customClass: {
                             confirmButton: "btn font-weight-bold btn-light-primary"
                         }
@@ -229,7 +229,7 @@ var KTAccountSettingsSigninMethods = function () {
                                 text: "Your password has been successfully reset.",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn font-weight-bold btn-light-primary"
                                 }
@@ -249,7 +249,7 @@ var KTAccountSettingsSigninMethods = function () {
                                     text: dataMessage,
                                     icon: "error",
                                     buttonsStyling: false,
-                                    confirmButtonText: "Ok, got it!",
+                                    confirmButtonText: "OK!",
                                     customClass: {
                                         confirmButton: "btn btn-primary"
                                     }
@@ -270,7 +270,7 @@ var KTAccountSettingsSigninMethods = function () {
                         text: "Sorry, looks like there are some errors detected, please try again.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: "OK!",
                         customClass: {
                             confirmButton: "btn font-weight-bold btn-light-primary"
                         }

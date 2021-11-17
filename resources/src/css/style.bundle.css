@@ -30,7 +30,7 @@
   --bs-warning: #FFC700;
   --bs-danger: #F1416C;
   --bs-dark: #181C32;
-  --bs-white-rgb: 255, 255, 255;
+  --bs-white-rgb: 24, 28, 50;
   --bs-light-rgb: 245, 248, 250;
   --bs-primary-rgb: 4, 200, 200;
   --bs-secondary-rgb: 228, 230, 239;
@@ -10690,8 +10690,8 @@ textarea.form-control-lg {
 }
 
 .bg-white {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+  --bs-bg-opacity: 0;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity));
 }
 
 .bg-light {
@@ -30846,7 +30846,7 @@ textarea.form-control-lg {
 }
 
 .bg-white {
-  --bg-color: 255, 255, 255;
+  --bg-color: 24, 28, 50;
 }
 .bg-white.hoverable:hover {
   background-color: #F5F8FA !important;
@@ -30856,12 +30856,12 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 .bg-hover-white:hover {
-  --bg-color: 255, 255, 255;
+  --bg-color: 24, 28, 50;
   background-color: #ffffff !important;
 }
 
 .bg-active-white.active {
-  --bg-color: 255, 255, 255;
+  --bg-color: 24, 28, 50;
   background-color: #ffffff !important;
 }
 
@@ -30869,7 +30869,7 @@ textarea.form-control-lg {
   cursor: pointer;
 }
 .bg-state-white.active, .bg-state-white:hover {
-  --bg-color: 255, 255, 255;
+  --bg-color: 24, 28, 50;
   background-color: #ffffff !important;
 }
 

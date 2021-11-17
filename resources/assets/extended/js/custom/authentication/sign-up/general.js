@@ -112,7 +112,7 @@ var KTSignupGeneral = function () {
                                 text: "You have successfully registered! Please check your email for verification.",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }
@@ -138,7 +138,7 @@ var KTSignupGeneral = function () {
                                     text: dataMessage,
                                     icon: "error",
                                     buttonsStyling: false,
-                                    confirmButtonText: "Ok, got it!",
+                                    confirmButtonText: "OK!",
                                     customClass: {
                                         confirmButton: "btn btn-primary"
                                     }
@@ -159,7 +159,7 @@ var KTSignupGeneral = function () {
                         text: "Sorry, looks like there are some errors detected, please try again.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: "OK!",
                         customClass: {
                             confirmButton: "btn btn-primary"
                         }

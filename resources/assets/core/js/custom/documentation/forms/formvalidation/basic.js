@@ -130,7 +130,7 @@ var KTFormValidationDemoBasic = function () {
                                 text: "Form has been successfully submitted!",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }
@@ -205,7 +205,7 @@ var KTFormValidationDemoBasic = function () {
                                 text: "Form has been successfully submitted!",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }
@@ -282,7 +282,7 @@ var KTFormValidationDemoBasic = function () {
                                 text: "Form has been successfully submitted!",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }
@@ -356,7 +356,7 @@ var KTFormValidationDemoBasic = function () {
                                 text: "Form has been successfully submitted!",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }
@@ -430,7 +430,7 @@ var KTFormValidationDemoBasic = function () {
                                 text: "Form has been successfully submitted!",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }
@@ -504,7 +504,7 @@ var KTFormValidationDemoBasic = function () {
                                 text: "Form has been successfully submitted!",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }

@@ -433,7 +433,7 @@ class Util {
     public static function sampleDemoText() {
         $demo = '';
         if (Theme::isMultiDemo()) {
-            $demo = '--demo1';
+            $demo = '--demo7';
         }
         return $demo;
     }

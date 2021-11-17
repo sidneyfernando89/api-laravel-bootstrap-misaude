@@ -21,7 +21,7 @@ var KTGeneralPasswordMeterDemos = function() {
                 text: "Current Password Score: " + score,
                 icon: "success",
                 buttonsStyling: false,
-                confirmButtonText: "Ok, got it!",
+                confirmButtonText: "OK!",
                 customClass: {
                     confirmButton: "btn btn-primary"
                 }

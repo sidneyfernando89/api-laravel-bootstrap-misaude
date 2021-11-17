@@ -5,7 +5,7 @@
 		<!--begin::Copyright-->
 		<div class="text-dark order-2 order-md-1">
 			<span class="text-muted fw-bold me-1">{{ date("Y") }}&copy;</span>
-			<a href="{{ theme()->getOption('general', 'website') }}" target="_blank" class="text-gray-800 text-hover-primary">Keenthemes</a>
+			<a href="{{ theme()->getOption('general', 'website') }}" target="_blank" class="text-gray-800 text-hover-primary">MiSaúde</a>
 		</div>
 		<!--end::Copyright-->
 
@@ -16,7 +16,7 @@
 				<li class="menu-item">
 					<!--begin::Menu link-->
 					<a href="{{ $each['url'] }}" target="_blank" class="menu-link px-3">
-						<img alt="Keenthemes {{ $each['name'] }}" src="{{ asset(theme()->getMediaUrlPath() . $each['logo']) }}" class="{{ $each['class'] }}"/>
+						<img alt="MiSáude {{ $each['name'] }}" src="{{ asset(theme()->getMediaUrlPath() . $each['logo']) }}" class="{{ $each['class'] }}"/>
 					</a>
 					<!--end::Menu link-->
 				</li>

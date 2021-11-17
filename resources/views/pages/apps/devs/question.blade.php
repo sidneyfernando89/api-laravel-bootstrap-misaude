@@ -22,15 +22,7 @@
 
         <!--begin::Question-->
         <div class="fs-4 fw-normal text-gray-800 mb-10">
-            <p>Hi Keenthemes,</p>
 
-            <p>I’ve been doing some ajax request, to populate a inside drawer, the content of that drawer has a sub menu, that you are using in list and all card toolbar.</p>
-
-            <p>But they are not displaying, since it is an ajax, I tried “KTApp.init();” but didn’t work (worked for Tooltips sure, but not Menu).</p>
-
-            <p>Anyway to Re-init those https://ibb.co/gysPGpx Menu. ?</p>
-
-            <p>Thank you.</p>
         </div>
         <!--end::Question-->
 

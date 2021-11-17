@@ -58,7 +58,7 @@ var KTPasswordResetGeneral = function () {
                                 text: "Please check your email to proceed with the password reset.",
                                 icon: "success",
                                 buttonsStyling: false,
-                                confirmButtonText: "Ok, got it!",
+                                confirmButtonText: "OK!",
                                 customClass: {
                                     confirmButton: "btn btn-primary"
                                 }
@@ -82,7 +82,7 @@ var KTPasswordResetGeneral = function () {
                                     text: dataMessage,
                                     icon: "error",
                                     buttonsStyling: false,
-                                    confirmButtonText: "Ok, got it!",
+                                    confirmButtonText: "OK!",
                                     customClass: {
                                         confirmButton: "btn btn-primary"
                                     }
@@ -103,7 +103,7 @@ var KTPasswordResetGeneral = function () {
                         text: "Sorry, looks like there are some errors detected, please try again.",
                         icon: "error",
                         buttonsStyling: false,
-                        confirmButtonText: "Ok, got it!",
+                        confirmButtonText: "OK!",
                         customClass: {
                             confirmButton: "btn btn-primary"
                         }

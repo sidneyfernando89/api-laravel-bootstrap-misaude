@@ -15,9 +15,14 @@ class AuthenticatedSessionController extends Controller
      *
      * @return \Illuminate\View\View
      */
-    public function create()
+    public function create_cliente()
     {
-        return view('auth.login');
+        return view('auth.login-cliente');
+    }
+
+    public function create_parceiro()
+    {
+        return view('auth.login-parceiro');
     }
 
     /**

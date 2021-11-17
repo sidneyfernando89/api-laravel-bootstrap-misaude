@@ -25,7 +25,7 @@ return array(
         // Main
         'main'       => array(
             'type'              => 'default', // Set layout type: default|blank|none
-            'dark-mode-enabled' => false, // Enable optioanl dark mode mode
+            'dark-mode-enabled' => true, // Enable optioanl dark mode mode
             'primary-color'     => '#04C8C8',
         ),
 

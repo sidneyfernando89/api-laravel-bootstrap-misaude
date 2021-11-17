@@ -30,9 +30,11 @@
         "bootstrap-icons": "^1.5.0",
         "bootstrap-maxlength": "^1.10.1",
         "bootstrap-multiselectsplitter": "^1.0.4",
+        "caniuse-lite": "^1.0.30001279",
         "chalk": "^4.1.0",
         "chart.js": "^3.4.1",
         "clipboard": "^2.0.8",
+        "collect.js": "^4.29.0",
         "countup.js": "^2.0.7",
         "cropperjs": "^1.5.12",
         "datatables.net": "^1.10.25",
@@ -97,6 +99,7 @@
         "@babel/plugin-transform-modules-commonjs": "^7.13.8",
         "@babel/preset-env": "^7.13.12",
         "@babel/register": "^7.13.14",
+        "axios": "^0.21",
         "copy-webpack-plugin": "^8.1.0",
         "css-loader": "^5.2.0",
         "css-minimizer-webpack-plugin": "^1.3.0",
@@ -116,7 +119,9 @@
         "gulp-sourcemaps": "^3.0.0",
         "gulp-terser": "^2.0.1",
         "imports-loader": "^1.2.0",
+        "laravel-mix": "^6.0.6",
         "lazypipe": "^1.0.2",
+        "lodash": "^4.17.19",
         "merge-stream": "^2.0.0",
         "mini-css-extract-plugin": "^1.3.4",
         "postcss-loader": "^4.0.4",
@@ -134,9 +139,6 @@
         "webpack-merge-and-include-globally": "^2.3.4",
         "webpack-messages": "^2.0.4",
         "yargs": "^16.2.0",
-        "yarn-install": "^1.0.0",
-        "axios": "^0.21",
-        "laravel-mix": "^6.0.6",
-        "lodash": "^4.17.19"
+        "yarn-install": "^1.0.0"
     }
 }

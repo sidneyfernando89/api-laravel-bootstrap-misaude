@@ -103,7 +103,7 @@ return array(
 
     'account' => array(
         'overview' => array(
-            'title'  => 'Account Overview',
+            'title'  => 'Informações',
             'view'   => 'account/overview/overview',
             'assets' => array(
                 'custom' => array(
@@ -114,8 +114,9 @@ return array(
             ),
         ),
 
+
         'settings' => array(
-            'title'  => 'Account Settings',
+            'title'  => 'Configuração',
             'assets' => array(
                 'custom' => array(
                     'js' => array(
@@ -126,6 +127,18 @@ return array(
                 ),
             ),
         ),
+    ),
+
+    'protocolo' => array(
+            'title'  => 'Pesquisar Protocolos',
+            'view'   => 'protocolo/consultar/consulta',
+            'assets' => array(
+                'custom' => array(
+                    'js' => array(
+                        'js/custom/widgets.js',
+                    ),
+                ),
+            ),
     ),
 
     'users'         => array(
