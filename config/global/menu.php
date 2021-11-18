@@ -249,8 +249,8 @@ return array(
                 'class' => 'menu-sub-accordion menu-active-bg',
                 'items' => array(
                     array(
-                        'title'      => 'Consultar',
-                        'path'   => 'api/protocolo/consulta',
+                        'title'      => 'Consultar Protocolos',
+                        'path'   => 'protocolo/consulta',
                         'bullet' => '<span class="bullet bullet-dot"></span>',
                     ),
                 ),

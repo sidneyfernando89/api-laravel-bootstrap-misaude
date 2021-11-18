@@ -1,9 +1,5 @@
-{{--<x-base-layout>--}}
+<x-base-layout>
 
-{{--   Vai--}}
+    {{ theme()->getView('pages/protocolo/_navbar', array('class' => 'mb-5 mb-xl-10')) }}
 
-
-{{--</x-base-layout>--}}
-
-
-Bateu?
+</x-base-layout>

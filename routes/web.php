@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProtocolosController;
 use App\Http\Controllers\Account\SettingsController;
 use App\Http\Controllers\Auth\SocialiteLoginController;
 use App\Http\Controllers\Documentation\ReferencesController;
@@ -40,6 +41,12 @@ array_walk($menu, function ($val) {
 Route::prefix('documentation')->group(function () {
     Route::get('getting-started/references', [ReferencesController::class, 'index']);
     Route::get('getting-started/changelog', [PagesController::class, 'index']);
+});
+
+
+// Protocolo
+Route::prefix('protocolo')->group(function () {
+    Route::get('/consulta', [ProtocolosController::class, 'index']);
 });
 
 Route::middleware('auth')->group(function () {
