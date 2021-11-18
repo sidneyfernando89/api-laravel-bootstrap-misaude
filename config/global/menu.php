@@ -250,7 +250,7 @@ return array(
                 'items' => array(
                     array(
                         'title'      => 'Consultar',
-                        'path'   => 'protocolo/consultar',
+                        'path'   => 'api/protocolo/consulta',
                         'bullet' => '<span class="bullet bullet-dot"></span>',
                     ),
                 ),
@@ -340,7 +340,7 @@ return array(
 
                     array(
                         'title'      => 'Consultar',
-                        'path'   => 'protocolo/consultar',
+                        'path'   => 'api/protocolo/consultar',
                         'bullet' => '<span class="bullet bullet-dot"></span>',
                     ),
                 ),
