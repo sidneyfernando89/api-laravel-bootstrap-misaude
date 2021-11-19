@@ -103,7 +103,7 @@ return array(
 
     'account' => array(
         'overview' => array(
-            'title'  => 'Informaçõesdd',
+            'title'  => 'Informações',
             'view'   => 'account/overview/overview',
             'assets' => array(
                 'custom' => array(
@@ -130,8 +130,8 @@ return array(
     ),
 
     'protocolo' => array(
-        'protocolo' => array(
-            'title'  => 'A nem',
+        'consulta' => array(
+            'title'  => 'Consultar Protocolos',
             'view'   => 'protocolo/consultar/consulta',
             'assets' => array(
                 'custom' => array(
